@@ -1,0 +1,25 @@
+# Aquí vive todo el diseño: colores, tipografía y esquinas. No hace falta tocar app.py.
+
+[theme]
+base = "light"
+primaryColor = "#B5304F"              # fresa: botones, selección, gráficas
+backgroundColor = "#FFFBFA"           # fondo de la página
+secondaryBackgroundColor = "#FBEEF0"  # tarjetas, tablas y campos
+textColor = "#2E2327"
+font = "sans serif"
+headingFont = "serif"                 # títulos con serifa: se siente a pastelería, no a hoja de cálculo
+baseRadius = "large"
+borderColor = "#EBD3D8"
+
+[theme.sidebar]                       # menú lateral en ciruela oscuro, para que la fresa destaque
+backgroundColor = "#3A1E2A"
+secondaryBackgroundColor = "#4C2B3B"
+textColor = "#FBEFF2"
+primaryColor = "#F2A3B3"
+borderColor = "#5E3A4B"
+
+[client]
+toolbarMode = "minimal"               # oculta el menú de desarrollo para los usuarios
+
+[browser]
+gatherUsageStats = false
